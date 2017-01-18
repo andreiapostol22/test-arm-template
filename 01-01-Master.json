@@ -24,7 +24,7 @@
         "vmOsSku": {
             "type": "string",
             "allowedValues": [
-                "2016-Datacenter"
+                "2012-R2-Datacenter"
             ]
         },
         "dnsPrefix": {
@@ -39,7 +39,7 @@
     },
     "variables": {
         "location": "[resourceGroup().location]",
-        "templateUriBase": "https://raw.githubusercontent.com/peterschen/ARM/master/03-AdvancedTemplateDesigns/Templates",
+        "templateUriBase": "https://github.com/andreiapostol22/test-arm-template",
         "storageName": "[uniqueString(resourceGroup().id)]"
     },
     "resources": [
