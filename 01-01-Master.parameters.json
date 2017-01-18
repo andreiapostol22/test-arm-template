@@ -18,7 +18,7 @@
             "value": "adt-gold-01"
         },
         "vmOsSku": {
-            "value": "Windows-Server-Technical-Preview"
+            "value": "Windows R2 Datacenter"
         },
         "dnsPrefix": {
             "value": "adt-gold-01"
